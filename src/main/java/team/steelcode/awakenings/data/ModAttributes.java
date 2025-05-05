@@ -15,7 +15,7 @@ public class ModAttributes {
 
     public static final Holder<Attribute> BREATHS =
             ATTRIBUTES.register("breaths", () -> new RangedAttribute(
-                    "attribute.name.breaths", 0, 0, 1_000_000).setSyncable(true));
+                    "attribute.name.breaths", 10, 0, 1_000_000).setSyncable(true));
 
     public static void register(IEventBus modEventBus) {
         ATTRIBUTES.register(modEventBus);

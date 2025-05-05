@@ -1,8 +1,0 @@
-{
-    "pack": {
-        "description": "Introducing a Minecraft mod inspired by Brandon Sanderson's Warbreaker book! This mod brings the magic and excitement of the Warbreaker world to your Minecraft gameplay. And guess what?",
-                "pack_format": 9
-                        ,"forge:resource_pack_format": 9,
-        "forge:data_pack_format": 10
-            }
-}

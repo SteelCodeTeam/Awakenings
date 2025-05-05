@@ -1,0 +1,16 @@
+{
+  "attribute.name.breaths": "Alientos",
+  "block.awakenings.aluminum_block": "Block of Aluminum",
+  "block.awakenings.aluminum_ore": "Aluminum Ore",
+  "item.awakenings.aluminum_ingot": "Aluminum Ingot",
+  "item.awakenings.aluminum_nugget": "Aluminum Nugget",
+  "item.awakenings.aluminum_plate": "Aluminum Plate",
+  "item.awakenings.aluminum_raw": "Aluminum Raw",
+  "item.awakenings.netherite_plate": "Netherite Plate",
+  "item.awakenings.nightblood": "Nightblood",
+  "item.awakenings.nightblood_sheathed": "Nightblood (Sheathed)",
+  "item.awakenings.sword_sheath": "Sword sheath",
+  "msg.awakenings.nightblood_says": "[NightBlood] ",
+  "msg.awakenings.nightblood_sheath_not_found": "404 Error: Sheath Not Found",
+  "tab.awakenings.default": "Awakenings"
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nightblood_sheath_smithing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "awakenings:sword_sheath"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:nightblood_sheathed_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nightblood_sheath_smithing"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nightblood_sheathed_smithing"
+    ]
+  }
+}

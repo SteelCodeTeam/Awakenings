@@ -1,0 +1,4 @@
+// 1.21.3	2025-05-03T20:34:27.50931181	Registries
+57f0c3ecb0e97d12f24b0136953980abc1afaa58 data/awakenings/neoforge/biome_modifier/add_aluminum_ore.json
+981f1b355e4470dd799d2b541188b384c1bf478d data/awakenings/worldgen/configured_feature/aluminum_ore.json
+b3ec153996878ac69da0482aef7cae009f9453ed data/awakenings/worldgen/placed_feature/aluminum_ore.json

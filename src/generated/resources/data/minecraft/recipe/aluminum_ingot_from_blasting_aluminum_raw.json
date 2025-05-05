@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 100.0,
+  "group": "aluminum",
+  "ingredient": "awakenings:aluminum_raw",
+  "result": {
+    "count": 1,
+    "id": "awakenings:aluminum_ingot"
+  }
+}

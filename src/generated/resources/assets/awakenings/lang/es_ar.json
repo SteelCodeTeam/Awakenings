@@ -1,0 +1,16 @@
+{
+  "attribute.name.breaths": "Breaths",
+  "block.awakenings.aluminum_block": "Bloque de aluminio",
+  "block.awakenings.aluminum_ore": "Mena de aluminio",
+  "item.awakenings.aluminum_ingot": "Lingote de aluminio",
+  "item.awakenings.aluminum_nugget": "Pepita de aluminio",
+  "item.awakenings.aluminum_plate": "Placa de Aluminio",
+  "item.awakenings.aluminum_raw": "Aluminio crudo",
+  "item.awakenings.netherite_plate": "Placa de Netherita",
+  "item.awakenings.nightblood": "Sangre Nocturna",
+  "item.awakenings.nightblood_sheathed": "Sangre Nocturna (Enfundada)",
+  "item.awakenings.sword_sheath": "Funda de espada",
+  "msg.awakenings.nightblood_says": "[Sangre Nocturna] ",
+  "msg.awakenings.nightblood_sheath_not_found": "Error 404: Funda no encontrada",
+  "tab.awakenings.default": "Awakenings"
+}

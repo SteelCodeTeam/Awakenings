@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "awakenings:aluminum_block",
+    "I": "awakenings:aluminum_ingot",
+    "N": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "BIB",
+    "INI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "awakenings:aluminum_plate"
+  }
+}

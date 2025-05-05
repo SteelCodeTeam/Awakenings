@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "awakenings:sword_sheath",
+  "base": "minecraft:netherite_sword",
+  "result": {
+    "count": 1,
+    "id": "awakenings:nightblood_sheathed"
+  },
+  "template": "awakenings:netherite_plate"
+}

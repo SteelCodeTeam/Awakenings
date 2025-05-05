@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "awakenings:aluminum_plate"
+  },
+  "pattern": [
+    "P P",
+    "P P",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "awakenings:sword_sheath"
+  }
+}

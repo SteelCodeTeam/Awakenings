@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sword_sheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "awakenings:sword_sheath"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "awakenings:sword_sheath"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sword_sheat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "awakenings:sword_sheath"
+    ]
+  }
+}

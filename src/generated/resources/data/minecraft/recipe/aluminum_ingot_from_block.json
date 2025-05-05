@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "awakenings:aluminum_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "awakenings:aluminum_ingot"
+  }
+}

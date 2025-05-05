@@ -1,0 +1,4 @@
+// 1.21.3	2025-05-03T19:37:48.810830289	Tags for minecraft:block mod id awakenings
+dddf2e7f8c8c567595984056f53f14f0575ca746 data/minecraft/tags/block/mineable/pickaxe.json
+6fc4926012b405bb135129b6e7f2902abd54c334 data/minecraft/tags/block/needs_diamond_tool.json
+ef3c6dfa6d811e5fdbb2d6220585870c266e1a31 data/minecraft/tags/block/needs_iron_tool.json

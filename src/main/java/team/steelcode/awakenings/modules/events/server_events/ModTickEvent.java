@@ -28,9 +28,6 @@ public class ModTickEvent {
                 if (breaths <= 0) {
                     event.getEntity().addEffect(
                             new MobEffectInstance(
-                                    MobEffects.DARKNESS, 40, 0, true, true, true));
-                    event.getEntity().addEffect(
-                            new MobEffectInstance(
                                     MobEffects.DIG_SLOWDOWN, 40, 0, false, false, false));
                     event.getEntity().addEffect(
                             new MobEffectInstance(
@@ -39,7 +36,6 @@ public class ModTickEvent {
                             new MobEffectInstance(
                                     MobEffects.MOVEMENT_SLOWDOWN, 40, 0, true, true, true));
                 } else {
-
                     if (breaths >= 50 && breaths < 200) {
                         event.getEntity().addEffect(
                                 new MobEffectInstance(

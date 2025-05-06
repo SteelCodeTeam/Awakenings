@@ -1,0 +1,54 @@
+{
+  "targets": {
+    "swap": {}
+  },
+  "passes": [
+    {
+      "program": "minecraft:post/color_convolve",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main"
+        }
+      ],
+      "output": "swap",
+      "uniforms": [
+        {
+          "name": "RedMatrix",
+          "values": [ 0.6, 0.1, 0.1 ]
+        },
+        {
+          "name": "GreenMatrix",
+          "values": [ 0.1, 0.6, 0.1 ]
+        },
+        {
+          "name": "BlueMatrix",
+          "values": [ 0.1, 0.1, 0.6 ]
+        },
+        {
+          "name": "Saturation",
+          "values": [ 0.3 ]
+        },
+        { "name": "Offset",
+          "values": [ -0.1, -0.1, -0.1 ]
+        }
+      ]
+    },
+    {
+      "program": "minecraft:post/box_blur",
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "output": "minecraft:main",
+      "uniforms": [
+        {
+          "name": "Radius",
+          "values": [ 0.2 ]
+        }
+      ]
+    }
+  ]
+}

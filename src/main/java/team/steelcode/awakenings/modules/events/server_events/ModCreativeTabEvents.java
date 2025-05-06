@@ -23,14 +23,4 @@ public class ModCreativeTabEvents {
             event.accept(ModItems.SWORD_SHEATH.get());
         }
     }
-
-    public static void addCustomItemsToMinecraftCreativeTab(BuildCreativeModeTabContentsEvent event) {
-
-        if (event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
-            event.accept(ModItems.ALUMINUM_NUGGET.get());
-            event.accept(ModItems.ALUMINUM_INGOT.get());
-            event.accept(ModItems.ALUMINUM_RAW.get());
-            event.accept(ModBlocks.ALUMINUM_BLOCK.asItem());
-        }
-    }
 }
